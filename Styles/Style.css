@@ -1,0 +1,493 @@
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    height: 26.9875cm;
+    background-image: url(../Images/Prime_Car.png);
+    background-attachment: fixed;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+}
+
+.header_nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.header_nav h1{
+    font-size: 56px;
+    text-transform: uppercase;
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+}
+
+.nav_links {
+    display: flex;
+    color: white;
+}
+
+.nav_links li {
+    text-transform: capitalize;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.nav_button button {
+    padding: 8px 20px;
+    border: 1px white solid;
+    border-radius: 10px;
+    background-color: inherit;
+    color: white;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+.nav_button button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+/* ///////////////////////// */
+
+
+.header_info{
+    width: 90%;
+    margin: auto;
+}
+
+.header_info_child {
+    margin-top: 100px;
+    text-align: right;
+    color: white;
+}
+
+.header_info_child h4{
+    font-size: 130px;
+    text-transform: uppercase;
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 130px;
+    text-align: right;
+}
+
+
+.header_info_child p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+
+.header_info_button button{
+    padding: 8px 20px;
+    border: 1px white solid;
+    border-radius: 10px;
+    background-color: inherit;
+    color: white;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 20px;
+}
+
+/* /////////////// ABOUT US //////////// */
+
+
+
+.about {
+    width: 100%;
+    height: 19.235208cm;
+    background-color: #373737;
+}
+
+.about_container {
+    width: 90%;
+    margin: auto;
+}
+
+.about_container h2 {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 130px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+
+/* /////////////////////////// */
+
+.about_item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0px;
+    align-items: center;
+
+}
+
+.about_item_phargraph {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(15px + 0.390625vw);
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.about_item_img img {
+    width: 100%;
+    height: auto;
+}
+
+.about_item_phargraph_p_1 {
+    margin: 30px 10px;
+}
+
+
+/* ///////////////SERVICE/////////////////////// */
+
+
+.service {
+    width: 100%;
+    height: 28.1cm;
+    background-color: #1A191A;;
+}
+.service_container {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+.service_container h2 {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 110px;
+    text-align: center;
+    color: white;
+
+}
+.service_container span {
+    display: block;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 30px;
+
+}
+.service_blocks {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.service_block_container {
+    width: 70%;
+    margin: auto;
+    height: 27cm;
+    display: flex;
+    justify-content: space-between;
+    align-items: middle;
+}
+.service_block_container div {
+    width: 30%;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 420px;
+}
+
+
+
+/* ////////////////// green box ////////////// */
+
+
+.service_block_container .green {
+    background: rgba(0, 221, 168, 0.5);
+}
+
+.service_block_container .green:hover {
+    background: rgba(0, 221, 168, 0.6);
+    transition: 0.5s;
+}
+
+.green img {
+    display: block;
+    width: 37%;
+    margin: auto;
+    position: relative;
+    top: -50px;
+}
+.green img:hover {
+    top: -80px;
+    rotate: 1 1.5 1 5deg;
+    transition: 0.5s;
+}
+
+.green h5{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
+.green p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    
+}
+
+
+
+
+/* ///// red box ///// */
+
+
+
+
+.service_block_container .red {
+    background: rgba(207, 41, 41, 0.6)
+}
+.service_block_container .red:hover{
+    background: rgba(210, 15, 15, 0.7);
+    transition: 0.5s;
+}
+.red img {
+    display: block;
+    width: 45%;
+    margin: auto;
+    position: relative;
+    top: -60px;
+}
+.red img:hover{
+    top: -80px;
+    rotate: x 35deg;
+    transition: 0.5s;
+}
+
+.red h5{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
+.red p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
+
+
+/* ///// blue box ///// */
+
+.service_block_container .blue {
+    background: rgba(0, 88, 221, 0.6);;
+}
+.service_block_container .blue:hover{
+    background: rgba(59, 123, 220, 0.7);;
+    transition: 0.5s;
+}
+.blue img {
+    display: block;
+    width: 35%;
+    margin: auto;
+    position: relative;
+    top: -60px; 
+}
+.blue img:hover{
+    rotate: x 50deg;
+    rotate: y 1.1turn;
+    rotate: z 1.27rad;
+    transition: 0.5s;
+}
+.blue h5{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
+.blue p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
+
+
+/* ///////////////////// CARS //////////////////// */
+
+.cars {
+    width: 100%;
+    /* height: 22.5425cm; */
+    background: rgba(0, 0, 0 , 0.8);;
+}
+
+.car_container {
+    width: 90%;
+    margin: auto;
+}
+
+.car_container h3 {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 110px;
+    color: white;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.55);
+    padding-top: 50px;
+}
+.car_container span {
+    display: block;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+/* ///////////////// car slider //////////////////// */
+
+.car_slider {
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../Images/slider/Car_1.png);;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: slide 20s infinite;
+    margin-top: 40px;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    border: #FFFFFF solid 2px;
+    box-shadow: 3px 3px rgb(49, 48, 48), -2em -2em .7em rgb(187, 6, 6);
+
+}
+
+.car_slider button {
+    padding: 8px 20px;
+    border: 1px white solid;
+    border-radius: 10px;
+    background-color: inherit;
+    color: white;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+}
+
+.car_slider button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+@keyframes slide{
+
+25%{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../Images/slider/Car_2.png);;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+50%{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../Images/slider/Car_3.png);;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;;
+}
+
+75%{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../Images/slider/Car_4.png);;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;;
+}
+
+100%{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../Images/slider/Car_2.png);;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;;
+}
+
+
+}
+
+
+.test_2 {
+    width: 100%;
+    height: 400px;
+    background: rgba(0, 0, 0 , 0.8);;
+}
+
